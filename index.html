@@ -101,6 +101,7 @@
     <h1>Gizlilik Politikası / Privacy Policy</h1>
     <p><strong>Uygulama Adı / App Name:</strong> Tır Park Ustası | <span class="meta-tag">Package: com.truck.park</span></p>
     <p><strong>Son Güncelleme / Effective Date:</strong> 14 Ağustos 2026 / August 14, 2026</p>
+    <p><strong>İletişim / Contact:</strong> <a href="mailto:griappmedya@gmail.com">griappmedya@gmail.com</a></p>
 
     <!-- 🇹🇷 TÜRKÇE GİZLİLİK POLİTİKASI -->
     <div class="lang-section">
@@ -108,77 +109,104 @@
         <p>Bu Gizlilik Politikası, <strong>Tır Park Ustası</strong> (<code>com.truck.park</code>) mobil uygulamasını kullandığınızda verilerinizin nasıl toplandığını, saklandığını ve işlendiğini ayrıntılı olarak açıklamaktadır.</p>
 
         <h3>1. Uygulama İzinleri ve Kullanım Amaçları</h3>
-        <p>Uygulamamız yalnızca oyun işlevselliği ve reklam hizmetleri için gerekli olan sistem izinlerini talep eder:</p>
+        <p>Uygulamamız oyun deneyimini ve reklam hizmetlerini sunmak için gerekli olan minimum sistem izinlerini talep eder:</p>
         <div class="permission-card">
             <ul>
-                <li><code>android.permission.VIBRATE</code> (Titreşim İzni): Araç engellere veya dubalara çarptığında kullanıcıya dokunsal (haptic) geri bildirim verir. Kişisel veri toplamaz.</li>
-                <li><code>android.permission.INTERNET</code> (İnternet İzni): Google AdMob reklamlarının yüklenmesi ve Google Play servis bağlantısı için gereklidir.</li>
-                <li><code>android.permission.ACCESS_NETWORK_STATE</code> (Ağ Durumu İzni): Reklam talebinde bulunmadan önce cihazda aktif internet bağlantısını doğrular.</li>
+                <li><code>android.permission.VIBRATE</code> (Titreşim İzni): Tır bir engel veya dubaya çarptığında kullanıcıya dokunsal geri bildirim sağlar. Kişisel veri toplamaz.</li>
+                <li><code>android.permission.INTERNET</code> (İnternet Erişimi İzni): Google AdMob reklamlarının yüklenmesi ve Google Play servis iletişimi için gereklidir.</li>
+                <li><code>android.permission.ACCESS_NETWORK_STATE</code> (Ağ Durumu Kontrolü İzni): Cihazın aktif bir internet bağlantısının olup olmadığını kontrol ederek reklamların doğru sunulmasını sağlar.</li>
             </ul>
         </div>
 
-        <h3>2. Yerel Veri Depolama (Cihaz İçi Veriler)</h3>
-        <p>Tüm oyun verileri <strong>sadece kendi cihazınızda</strong> Android <code>SharedPreferences</code> altyapısıyla saklanır. Harici sunucularımıza aktarılmaz veya satılmaz:</p>
+        <h3>2. Yerel Veri Depolama (Cihaz İçi Saklanan Veriler)</h3>
+        <p>Uygulama içerisinde oluşturduğunuz tüm oyun verileri <strong>sadece kendi cihazınızda</strong> Android <code>SharedPreferences</code> altyapısı kullanılarak yerel olarak depolanır. Bu veriler harici sunucularımıza aktarılmaz, satılmaz ve 3. şahıslarla paylaşılmaz:</p>
         <ul>
-            <li>Özel Plaka Metni (Kullanıcı girdisi)</li>
-            <li>Tır ve Dorse Rengi, Jant Stili ve Dorse Tipi</li>
+            <li>Özel Plaka Metni (Kullanıcının araç için yazdığı plaka)</li>
+            <li>Tır Rengi, Dorse Rengi, Jant Stili ve Dorse Türü Seçimleri</li>
             <li>Tamamlanan Seviyeler, Seviye Yıldızları ve En İyi Süreler</li>
-            <li>Ödüllü Reklamla Kazanılan Altın Miktarı</li>
-            <li>Direksiyon Modu ve Ekran Yönü Tercihleri</li>
+            <li>Ödüllü Reklamla Kazanılan Altın Bakiyesi</li>
+            <li>Direksiyon Kontrol Türü ve Ekran Yönü Tercihleri</li>
         </ul>
 
-        <h3>3. Üçüncü Taraf Hizmetleri & Reklam Verileri</h3>
-        <p>Uygulamada otomatik reklam sunumu için üçüncü taraf servisler kullanılır:</p>
+        <h3>3. Kullanıcı Verilerinin Silinmesi ve Sıfırlanması</h3>
+        <p>Kullanıcılar oyun verilerini istedikleri zaman şu iki yöntemle tamamen silebilir veya sıfırlayabilirler:</p>
         <ul>
-            <li><strong>Google Play Services:</strong> Oyun çerçevesi ve mağaza dağıtımı.</li>
-            <li><strong>Google AdMob:</strong> Reklam ağı. AdMob; cihaz Reklam Kimliği (GAID), cihaz modeli, IP adresi ve reklam etkileşim verilerini işleyebilir.</li>
+            <li><strong>Cihaz Üzerinden Sıfırlama:</strong> Cihazınızın <strong>Ayarlar ➡️ Uygulamalar ➡️ Tır Park Ustası ➡️ Depolama ➡️ Verileri Temizle</strong> adımlarını takip ederek tüm yerel verilerinizi anında silebilirsiniz.</li>
+            <li><strong>E-posta İle Talep Etme:</strong> <code>griappmedya@gmail.com</code> adresimize e-posta göndererek veri silme ve sıfırlama prosedürü hakkında bilgi talep edebilirsiniz.</li>
+        </ul>
+
+        <h3>4. Üçüncü Taraf Hizmetleri ve Otomatik Toplanan Veriler</h3>
+        <p>Uygulamamız, reklam sunumu ve performans takibi amacıyla güvenilir üçüncü taraf hizmet sağlayıcılarını kullanmaktadır:</p>
+        <ul>
+            <li><strong>Google Play Services (Google Play Hizmetleri):</strong> Mağaza özellikleri ve altyapı.</li>
+            <li><strong>Google AdMob (Google Reklam Ağı):</strong> Reklam sunumu. AdMob; cihaz Reklam Kimliği (GAID), cihaz modeli, IP adresi ve reklam etkileşim verilerini otomatik işleyebilir.</li>
         </ul>
         <p>Google Gizlilik Politikası: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
 
-        <h3>4. Çocukların Gizliliği & Veri Silme Hakları</h3>
-        <p>Uygulamamız genel kitleye (Everyone / PEGI 3) uygundur. 13 yaş altındaki çocuklardan bilerek kişisel veri toplanmaz. Dilediğiniz an cihazınızın <strong>Ayarlar ➡️ Uygulamalar ➡️ Tır Park Ustası ➡️ Verileri Temizle</strong> adımıyla tüm yerel verileri sıfırlayabilirsiniz.</p>
+        <h3>5. Reklam Biçimleri ve Ödüllü Sistem</h3>
+        <p>Uygulamamızda Google AdMob banner, 30 saniye koruma süreli geçiş (interstitial) ve kullanıcının kendi rızasıyla "Reklam İzle" butonuna tıklayarak izlediği ve karşılığında +1 Altın kazandığı ödüllü (rewarded) video reklamlar yer alır.</p>
+
+        <h3>6. Çocukların Gizliliği</h3>
+        <p>Uygulamamız genel kitleye (Genel Kitle / Everyone) uygundur. 13 yaşın altındaki çocuklardan bilerek hiçbir kişisel tanımlanabilir bilgi toplamayız.</p>
+
+        <h3>7. İletişim Bilgileri</h3>
+        <p>Gizlilik politikamız veya veri haklarınızla ilgili her türlü soru ve talep için bizimle iletişime geçebilirsiniz:</p>
+        <p><strong>Uygulama Adı:</strong> Tır Park Ustası<br>
+        <strong>Paket Adı:</strong> <code>com.truck.park</code><br>
+        <strong>E-posta Adresi:</strong> <a href="mailto:griappmedya@gmail.com">griappmedya@gmail.com</a></p>
     </div>
 
     <!-- 🇺🇸 ENGLISH PRIVACY POLICY (EN) -->
     <div class="lang-section">
         <h2>🇺🇸 ENGLISH PRIVACY POLICY (EN)</h2>
-        <p>This Privacy Policy describes how <strong>Tır Park Ustası</strong> (<code>com.truck.park</code>) collects, uses, and discloses information when you use our mobile application.</p>
+        <p>This Privacy Policy governs the manner in which <strong>Tır Park Ustası</strong> (<code>com.truck.park</code>) collects, uses, maintains, and discloses information collected from users of the mobile application.</p>
 
-        <h3>1. App Permissions & Technical Purpose</h3>
-        <p>Our App requests minimal Android system permissions required for gameplay functionality:</p>
+        <h3>1. Application Permissions & Usage</h3>
+        <p>Our App requests minimal Android device permissions necessary for gameplay and advertising functionality:</p>
         <div class="permission-card">
             <ul>
-                <li><code>android.permission.VIBRATE</code>: Provides physical haptic vibration feedback during truck collisions or button clicks. Collects no personal information.</li>
-                <li><code>android.permission.INTERNET</code>: Required to fetch Google AdMob advertisements and connect to Google Play Services.</li>
-                <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Verifies active network status prior to initiating ad retrieval.</li>
+                <li><code>android.permission.VIBRATE</code>: Used solely to provide tactile haptic feedback when the truck collides with obstacles or UI buttons. It does not collect any personal data.</li>
+                <li><code>android.permission.INTERNET</code>: Required to load Google AdMob advertisements and connect to Google Play Services.</li>
+                <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Allows the App to verify active internet connectivity prior to requesting ad content.</li>
             </ul>
         </div>
 
-        <h3>2. Local Storage (Device-Only)</h3>
-        <p>All gameplay statistics and customization preferences are stored <strong>exclusively locally on your device</strong> via Android <code>SharedPreferences</code> and are never uploaded to private external servers:</p>
+        <h3>2. Local Data Storage (Device Only)</h3>
+        <p>All gameplay data is stored <strong>strictly locally on your device</strong> via Android <code>SharedPreferences</code>. We do not transmit or sell this data to external private servers:</p>
         <ul>
-            <li>Custom Truck License Plate string</li>
-            <li>Cab color, trailer color, rim style, and trailer configuration</li>
-            <li>Completed level indices, earned stars, and best completion times</li>
-            <li>In-game gold balance earned from voluntary rewarded ads</li>
-            <li>Steering controls and screen orientation settings</li>
+            <li>Custom License Plate: The user-entered text on the truck plate.</li>
+            <li>Vehicle Customization: Selected cab color, trailer color, rim style, and trailer design.</li>
+            <li>Game Progress: Unlocked levels, earned stars, and best completion times.</li>
+            <li>In-Game Gold Balance: Gold earned voluntarily by watching rewarded video ads.</li>
+            <li>App Preferences: Steering control method and screen orientation settings.</li>
         </ul>
 
-        <h3>3. Third-Party Services & Analytics Identifiers</h3>
-        <p>The App incorporates third-party SDKs for monetization and infrastructure:</p>
+        <h3>3. User Data Deletion & Reset Rights</h3>
+        <p>Users can completely delete or reset their game data at any time using the following two methods:</p>
         <ul>
-            <li><strong>Google Play Services:</strong> Platform framework and store delivery.</li>
-            <li><strong>Google AdMob:</strong> Serves banner, interstitial, and voluntary rewarded ads. AdMob may process device Advertising IDs (GAID), IP address, and interaction metrics.</li>
+            <li><strong>Device Storage Reset:</strong> Navigate to your device's <strong>Settings ➡️ Apps ➡️ Tır Park Ustası ➡️ Storage ➡️ Clear Data</strong> to immediately wipe all local game progress.</li>
+            <li><strong>Email Request:</strong> Send an email to <code>griappmedya@gmail.com</code> to request assistance or information regarding data deletion procedures.</li>
+        </ul>
+
+        <h3>4. Third-Party Services & Automated Data Collection</h3>
+        <p>The App utilizes trusted third-party SDKs for analytics and advertisement distribution:</p>
+        <ul>
+            <li><strong>Google Play Services:</strong> App framework and store distribution.</li>
+            <li><strong>Google AdMob:</strong> Advertising network. AdMob may automatically collect Google Advertising IDs (GAID), device hardware models, IP addresses, and ad performance metrics.</li>
         </ul>
         <p>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></p>
 
-        <h3>4. Children's Privacy (COPPA) & Data Deletion</h3>
-        <p>Our App is suitable for general audiences of all ages. We do not knowingly collect personal data from children under 13. You can clear all local app storage anytime via your device's <strong>Settings ➡️ Apps ➡️ Tır Park Ustası ➡️ Storage ➡️ Clear Data</strong>.</p>
+        <h3>5. Ad Units & Monetization</h3>
+        <p>Our App displays Google AdMob banner, interstitial (with a 30-second policy cooldown), and voluntary rewarded video ads (+1 Gold coin per video).</p>
 
-        <h3>5. Contact Details</h3>
+        <h3>6. Children's Privacy</h3>
+        <p>Our App is intended for a general audience of all ages. We do not knowingly collect personal data from children under the age of 13.</p>
+
+        <h3>7. Contact Information</h3>
+        <p>For any questions or requests regarding our Privacy Policy or your data rights, please contact us at:</p>
         <p><strong>App Title:</strong> Tır Park Ustası<br>
         <strong>Package Name:</strong> <code>com.truck.park</code><br>
-        <strong>Email:</strong> support@truckparkustasi.com</p>
+        <strong>Contact Email:</strong> <a href="mailto:griappmedya@gmail.com">griappmedya@gmail.com</a></p>
     </div>
 
     <footer>
